@@ -204,17 +204,26 @@ body {
     align-items: center;
 }
 
-.profile-placeholder {
+.profile-image {
     width: 300px;
     height: 300px;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    color: rgba(255, 255, 255, 0.3);
-    border: 3px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Section Styles */
@@ -397,9 +406,10 @@ body {
 }
 
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .contact-info h3 {
@@ -424,6 +434,17 @@ body {
     gap: 1rem;
     margin-bottom: 1rem;
     color: #4a5568;
+}
+
+.contact-method a {
+    color: #ec4899;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-method a:hover {
+    color: #be185d;
+    text-decoration: underline;
 }
 
 .contact-method i {
