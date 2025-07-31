@@ -66,7 +66,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #6366f1;
+    color: #ec4899;
 }
 
 .nav-link::after {
@@ -76,7 +76,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #6366f1;
+    background-color: #ec4899;
     transition: width 0.3s ease;
 }
 
@@ -103,7 +103,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ec4899 0%, #be185d 100%);
     color: white;
     padding: 120px 0 80px;
 }
@@ -177,12 +177,12 @@ body {
 }
 
 .btn-primary {
-    background: #fbbf24;
+    background: #f472b6;
     color: #333;
 }
 
 .btn-primary:hover {
-    background: #f59e0b;
+    background: #ec4899;
     transform: translateY(-2px);
 }
 
@@ -258,7 +258,7 @@ body {
 }
 
 .skill-tag {
-    background: #6366f1;
+    background: #ec4899;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 25px;
@@ -284,7 +284,7 @@ body {
 .location-card i,
 .experience-card i {
     font-size: 2rem;
-    color: #6366f1;
+    color: #ec4899;
     margin-bottom: 1rem;
 }
 
@@ -327,7 +327,7 @@ body {
 
 .work-image {
     height: 200px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ec4899 0%, #be185d 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -375,9 +375,9 @@ body {
 
 .category-btn {
     padding: 0.5rem 1.5rem;
-    border: 2px solid #6366f1;
+    border: 2px solid #ec4899;
     background: transparent;
-    color: #6366f1;
+    color: #ec4899;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 500;
@@ -386,7 +386,7 @@ body {
 
 .category-btn.active,
 .category-btn:hover {
-    background: #6366f1;
+    background: #ec4899;
     color: white;
 }
 
@@ -427,7 +427,7 @@ body {
 }
 
 .contact-method i {
-    color: #6366f1;
+    color: #ec4899;
     font-size: 1.2rem;
 }
 
@@ -441,7 +441,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: #6366f1;
+    background: #ec4899;
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -449,7 +449,7 @@ body {
 }
 
 .social-link:hover {
-    background: #4f46e5;
+    background: #be185d;
     transform: translateY(-2px);
 }
 
@@ -477,7 +477,7 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #6366f1;
+    border-color: #ec4899;
 }
 
 .form-group textarea {

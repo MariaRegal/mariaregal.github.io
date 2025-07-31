@@ -61,8 +61,8 @@ To run the website locally:
 
 ### Colors
 The website uses a modern color palette:
-- Primary: `#6366f1` (Indigo)
-- Secondary: `#fbbf24` (Yellow)
+- Primary: `#ec4899` (Pink)
+- Secondary: `#f472b6` (Light Pink)
 - Background: `#f8fafc` (Light Gray)
 - Text: `#333` (Dark Gray)
 
