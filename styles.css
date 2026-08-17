@@ -269,7 +269,7 @@ body {
 }
 
 .skill-tag {
-    background: #8b5cf6;
+    background: #C1ADDE;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 25px;
@@ -295,7 +295,7 @@ body {
 .location-card i,
 .experience-card i {
     font-size: 2rem;
-    color: #8b5cf6;
+    color: #C1ADDE;
     margin-bottom: 1rem;
 }
 
@@ -340,7 +340,7 @@ body {
 
 .work-image {
     height: 200px;
-    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #C1ADDE 0%, #7c3aed 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -390,9 +390,9 @@ body {
 
 .category-btn {
     padding: 0.5rem 1.5rem;
-    border: 2px solid #8b5cf6;
+    border: 2px solid #C1ADDE;
     background: transparent;
-    color: #8b5cf6;
+    color: #C1ADDE;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 500;
@@ -445,7 +445,7 @@ body {
 }
 
 .contact-method a {
-    color: #8b5cf6;
+    color: #C1ADDE;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -470,7 +470,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: #8b5cf6;
+    background: #C1ADDE;
     color: white;
     text-decoration: none;
     border-radius: 8px;
