@@ -77,7 +77,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #8b5cf6;
+    background-color: #C1ADDE;
     transition: width 0.3s ease;
 }
 
@@ -506,7 +506,7 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #8b5cf6;
+    border-color: #C1ADDE;
 }
 
 .form-group textarea {
