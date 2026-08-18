@@ -46,7 +46,7 @@ body {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 400;
-    font-family: 'Prata', serif;
+    font-family: 'Roboto', serif;
     color: #333;
     text-decoration: none;
     letter-spacing: 2px;
@@ -67,7 +67,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #8b5cf6;
+    color: #78f65c;
 }
 
 .nav-link::after {
@@ -147,16 +147,16 @@ body {
 }
 
 .hero-title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 400;
-    font-family: 'Prata', serif;
+    font-family: 'New+Rocker', serif;
     margin-bottom: 1.5rem;
     line-height: 1.1;
     letter-spacing: 2px;
 }
 
 .hero-subtitle {
-    font-size: 2rem;
+    /*font-size: 2rem;*/
     font-weight: 400;
     font-family: 'Prata', serif;
     margin-bottom: 2rem;
@@ -165,7 +165,7 @@ body {
 }
 
 .hero-description {
-    font-size: 1.3rem;
+    font-size: 1 rem;
     margin-bottom: 3rem;
     opacity: 0.9;
     max-width: 600px;
@@ -238,7 +238,7 @@ body {
 /* About Section */
 .about {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #ffd100;
 }
 
 .about-content {
@@ -269,7 +269,7 @@ body {
 }
 
 .skill-tag {
-    background: #C1ADDE;
+    background: #4f5a6c;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 25px;
@@ -295,7 +295,7 @@ body {
 .location-card i,
 .experience-card i {
     font-size: 2rem;
-    color: #C1ADDE;
+    color: #4f5a6c;
     margin-bottom: 1rem;
 }
 
@@ -340,7 +340,7 @@ body {
 
 .work-image {
     height: 200px;
-    background: linear-gradient(135deg, #C1ADDE 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #ffd100 0%, #ffffff 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -390,9 +390,9 @@ body {
 
 .category-btn {
     padding: 0.5rem 1.5rem;
-    border: 2px solid #C1ADDE;
+    border: 2px solid #ffd100;
     background: transparent;
-    color: #C1ADDE;
+    color: #4f5a6c;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 500;
@@ -401,7 +401,7 @@ body {
 
 .category-btn.active,
 .category-btn:hover {
-    background: #C1ADDE;
+    background: #ffd100;
     color: white;
 }
 
@@ -445,18 +445,18 @@ body {
 }
 
 .contact-method a {
-    color: #C1ADDE;
+    color: #4f5a6c;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .contact-method a:hover {
-    color: #7c3aed;
+    color: #ffd100;
     text-decoration: underline;
 }
 
 .contact-method i {
-    color: #8b5cf6;
+    color: #4f5a6c;
     font-size: 1.2rem;
 }
 
@@ -470,15 +470,15 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: #C1ADDE;
-    color: white;
+    background: #ffd100;
+    color: #4f5a6c;
     text-decoration: none;
     border-radius: 8px;
     transition: all 0.3s ease;
 }
 
 .social-link:hover {
-    background: #7c3aed;
+    background: #e8c00f;
     transform: translateY(-2px);
 }
 
